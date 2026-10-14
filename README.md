@@ -1,207 +1,131 @@
-# Awesome-Board-Resolution-Governance-Management
-
-## Top Board Resolution & Governance Management Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Board Portals, Resolution Workflows & Minute Automation*
-
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Board Resolution & Governance Management**. These tools enable corporate secretaries, board administrators, and governance teams to compile meeting logs into legal minutes, manage resolutions and voting workflows, and maintain audit-ready governance records.
-
-
-
-**Examples** include Diligent Boards, OnBoard, Boardable, Govenda, Aprio, Azeus Convene, BoardEffect, Nasdaq Boardvantage, BoardPAC, and Passageways (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, cryptographic document integrity, and open governance workflows—ideal for corporate secretaries, associations, and developers seeking transparent, vendor-independent board management.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Diligent Boards](https://www.diligent.com/)**
-
-  The dominant board portal platform with roughly 40% market share. Purpose-built for enterprise governance at public companies, large financial institutions, and complex multi-entity organizations. Features agenda and board book creation, secure document distribution, annotations, voting/e-signatures, minutes, action tracking, and AI summaries. Built on proprietary software stack—Diligent does not use third-party software like Adobe Acrobat at critical points, enabling better security and seven-day support . Trade-off: enterprise pricing, complexity, and platform breadth that smaller boards may not need .
-
-
-
-- **[OnBoard (Passageways)](https://www.onboardmeetings.com/)**
-
-  Second-largest board portal with roughly 20% market share. Cleaner, more intuitive interface than Diligent with strong document management and faster onboarding. Targets mid-market to enterprise segment at generally lower pricing. Acquired BoardEffect in 2023, expanding into nonprofit sector .
-
-
-
-- **[Boardable](https://boardable.com/)**
-
-  Transparent public pricing, simplified interface, and focus on smaller organizations. Covers agenda creation, document sharing, voting, and basic meeting management without enterprise governance overhead. Best for small to mid-size organizations wanting straightforward functionality .
-
-
-
-- **[Govenda](https://govenda.com/)**
-
-  Board management and online portal for boards of directors. Designed for mid-market to large organizations with focus on user experience and ROI.
-
-
-
-- **[Aprio](https://www.aprio.com/)**
-
-  Complete board portal helping organizations manage board meetings and board communication with optimal security and service.
-
-
-
-- **[Azeus Convene](https://www.azeusconvene.com/)**
-
-  Grown international presence, particularly in Asia-Pacific and Europe. Clean interface, paperless meeting features, and competitive pricing relative to Diligent. Strong for organizations with international boards requiring multi-language support and global data centers .
-
-
-
-- **[BoardEffect](https://www.boardeffect.com/)**
-
-  Now part of the OnBoard family. Purpose-built for mission-driven organizations: nonprofits, healthcare systems, higher education institutions, and associations. Feature set focuses on committee management, document workflows, and engagement tracking tailored to how nonprofit boards operate .
-
-
-
-- **[Nasdaq Boardvantage](https://www.nasdaq.com/solutions/boardvantage)**
-
-  For publicly traded companies already in the Nasdaq ecosystem. Board management with built-in compliance features. Nasdaq brand carries weight in financial services and with publicly listed companies .
-
-
-
-- **[BoardPAC](https://www.boardpac.com/)**
-
-  Board portal and paperless meeting software designed for board management process improvement, collaboration, and corporate governance.
-
-
-
-- **[Passageways](https://www.passageways.com/)**
-
-  Parent company of OnBoard, providing board management software for boards and leadership teams.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[EasyBoard](https://vibecode.law/showcase/easyboard-547268)**
-
-  The first AI-native board management platform—open source and self-hosted. Built by a practising lawyer with zero engineering background, demonstrating practitioner-designed governance tooling. **Upload a document and the AI classifies it, extracts key data, and proposes next actions** (create a meeting, start a vote, assign a task)—with **human-in-the-loop approval queue** ensuring nothing executes without Secretary review. Features **7 document types recognized** (draft minutes, resolutions, financial reports, evidence/deliverables, meeting agendas, legal opinions, general documents), **full voting workflow** with 4 options and custom approval rules (unanimous, majority, two-thirds, quorum), **secret ballot** visible only to Secretary and voter, **minutes lifecycle with SHA-256 integrity hashes**, **per-document access control** for conflict-of-interest recusal, **4 role types** (Secretary, Board Member, Management, Observer), natural language command bar, and full audit trail. Built with Replit and Claude through 12 rounds of security auditing .
-
-
-
-- **[Decidiq](https://github.com/ConductionNL/decidiq)**
-
-  Universal decision-making platform for governance bodies, associations, corporate boards, and operational meetings (EUPL-1.2). Serves **5 governance domains**: legislative/democratic bodies, associations/NGOs, corporate governance, corporate operations, and citizen participation. Features **meeting management** with agendas, motions, amendments, voting, and minutes. **Configurable workflows per organization type** with decision tracking. Built as a **Nextcloud app** with OpenRegister integration. Features **AI Chat Companion (MCP Tools)** exposing 5 governance tools: list action items, list recent meetings, get meeting details, start meeting, add action items. **RBAC via OpenRegister**, **full change history audit trail** on all objects, WCAG AA accessibility (Dutch government requirement), and English/Dutch localization. Tech stack: Vue 2.7, PHP 8.1+, Nextcloud 28-33, OpenRegister (PostgreSQL JSON objects) .
-
-
-
-- **[GovernanceOS](https://github.com/)**
-
-  Open-source platform for managing a global portfolio of legal entities (MIT). **Built for compliance and legal teams at regulated financial institutions**. Features **entity registry** with parent/subsidiary hierarchy, **director management and tenure tracking**, **board meeting scheduling with quorum tracking and minutes**, **license expiry alerts**, **regulatory capital monitoring**, and **AI-powered Terms of Reference generator** producing jurisdiction-aware governance documents for 10 countries. **Nium uses this across 28 entities and all our licenses**. Ships with a **CLAUDE.md file**—clone the repo, open it in Claude Code, type "set this up for me" and Claude handles database, migrations, and seed data automatically .
-
-
-
-- **[Loomio](https://github.com/loomio/loomio)**
-
-  Collaborative decision-making tool for group discussions, proposals, and polls (AGPL-3.0, 2.5k+ GitHub stars). Helps teams make transparent decisions asynchronously with a clear record. Features **threaded discussions** designed for group deliberation, **proposals and multiple polling/voting methods** (including ranked choice and score voting), **time polls** for meeting scheduling, **email participation** for inbox-preferring members, **export of group history and data** (CSV/HTML/JSON), and **API integrations** for threads, polls, and memberships. Best for board or cooperative governance decisions with documented outcomes, remote team decision-making, and community consultations. Some enterprise features (SSO) may depend on deployment or product tier .
-
-
-
-- **[Ackify](https://github.com/)**
-
-  Self-hosted proof-of-read platform (MIT). Records **cryptographic acknowledgements** when users read or accept documents. Features **Ed25519 cryptographic signatures** for irrefutable per-user/per-document acknowledgements, **document checksum support** (SHA-256/512, MD5) for tamper detection, **flexible authentication** (OAuth2: Google/GitHub/GitLab/custom, MagicLink passwordless email), **one signature per user/document** enforced at database level, **immutable audit trail** built on PostgreSQL with triggers and timestamping, **expected signers management** with email reminders and sign status tracking, **public embeddable widgets** for Notion/Outline integration, and **admin dashboard** (Vue 3). Proves employee acknowledgement of security policies, codes of conduct, and training attestations for compliance audits. Note: focuses on proof-of-read acknowledgements rather than full legal e-signature workflows .
-
-
-
-- **[Antragsgrün (Motion.Tools)](https://github.com/)**
-
-  Web application for NGOs, political parties, and assemblies to collaboratively submit, discuss, and decide on motions, resolutions, and amendments (AGPL-3.0, actively maintained). Features **structured amendment workflow** allowing submission, discussion, and merging of accepted amendments, **voting workflows** including roll calls and configurable vote procedures, **speaking lists and full-screen projector views** for in-person assemblies, **export options** (PDF, spreadsheets, text templates), **user management with roles** and configurable submission policies, **security features** (CAPTCHA throttling, optional TOTP-based 2FA, SSO integrations), **WCAG AA accessibility**, and **Docker-friendly deployment**. Designed for congresses with large numbers of motions and amendments, policy document adoption, and managing speaking order and roll calls during assemblies. Requires PHP >=8.1 and MySQL/MariaDB .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Archive Agenda & Minutes](https://wordpress.org/plugins/archive-agenda-minutes/)** — WordPress plugin (GPL v2+) for managing and organizing meeting agendas and minutes directly within a WordPress site. Features meeting creation, customizable templates, AJAX-powered year filtering, and shortcode display. **Note**: Not tested with latest 3 major WordPress releases—may have compatibility issues .
-
-- **[zorak1103/notebook](https://hub.docker.com/r/zorak1103/notebook)** — Meeting and Notes Management Application with Tailscale integration and optional LLM-powered summaries. Features internationalization (German, English, French, Spanish), meeting management, notes system with automatic numbering and manual reordering, full-text search, LLM integration (OpenAI, Anthropic, Ollama, LM Studio, vLLM), and single binary with embedded frontend .
-
-- **[Probo](https://github.com/getprobo/probo)** — Open-source GRC platform for engineers (MIT). Covers full GRC lifecycle including **document management** with versioned documents, approval quorums, electronic signatures, and PDF export. **270+ MCP tools** expose every entity for AI agent integration. **Immutable audit logs**, policy-based RBAC, and evidence chains. Self-hostable with Docker. Includes **n8n community node** for no-code automation .
-
-- Community **n8n** workflows for board meeting scheduling automation and resolution tracking alerts.
-
-
-
-**Frameworks for building custom systems**: Combine **EasyBoard** for AI-powered document classification and voting workflows with **Decidiq** for full decision-making lifecycle management, **GovernanceOS** for multi-entity governance and regulatory tracking, **Ackify** for cryptographic document acknowledgements, and **PostgreSQL** for persistence—creating a fully self-hosted, enterprise-grade board resolution management platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Board governance systems handling corporate records must comply with applicable corporate law, securities regulations, and data protection requirements.
-
-- **Open-source board portals are early-stage but promising.** EasyBoard and GovernanceOS are recent projects (2026) built by practitioners—EasyBoard by a lawyer, GovernanceOS by a fintech operator. They demonstrate the art of the possible but require security hardening and production validation before board use. Decidiq is more mature with Nextcloud integration and WCAG AA accessibility .
-
-- **Cryptographic integrity matters for governance records.** EasyBoard uses SHA-256 integrity hashes for minutes , Ackify uses Ed25519 signatures for document acknowledgements , and Probo provides immutable audit logs . These features provide tamper-evidence that paper-based governance cannot match.
-
-- **AI-assisted governance requires human oversight.** EasyBoard's human-in-the-loop approval queue ensures nothing executes without Secretary review . AI can classify documents, extract data, and propose actions—but board decisions and legal minutes remain human responsibilities.
-
-- Self-hosted open-source solutions require proper security hardening, database administration, and ongoing maintenance. Board materials are highly confidential—access controls, encryption, and audit trails are essential.
-
-
+# Awesome Board Resolution & Governance Management [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
+> A curated list of leading SaaS platforms and open-source software for **Board Resolution & Corporate Governance Management**, board portals, resolution workflows, meeting minute automation, and cryptographic governance audit trails.
+
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social)](https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social)](https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/network/members)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/blob/main/README.md#how-to-contribute)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
+## Overview
 
+This repository tracks premier **SaaS platforms** and **open-source repositories** designed for **Board Resolution & Governance Management**. These systems empower corporate secretaries, general counsels, board chairs, and governance teams to:
+- Compile meeting records and discussions into compliant, audit-ready **legal minutes**.
+- Execute secure **board resolutions, consent agendas, and multi-signature voting workflows**.
+- Maintain tamper-evident, cryptographically verifiable corporate audit trails.
+- Safeguard confidential executive communications and sensitive board packs.
 
-**Made for corporate secretaries, board administrators, governance professionals, and developers building transparent board management solutions.**
+---
 
-Let's make Board Resolution & Governance Management more open, data-driven, and cryptographically verifiable.
+## Table of Contents
+
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global board portal and governance management software sector is estimated at **$2.95 billion** (forecasted to reach **$7.93 billion by 2036** at a **10.4% CAGR**). The market is **moderately fragmented at the mid-market and non-profit tiers**, but **highly concentrated at the upper-tier enterprise level**, where category giants Diligent Corporation and OnBoard (Passageways) command approximately 60% combined market share.
+
+---
+
+## SaaS/Hosted Platforms
+
+The following table provides detailed pricing, trial terms, company scale (valuation / annual revenue), and key highlights for category-leading SaaS board management providers, sorted by company size (descending):
+
+| Platform | Valuation / Revenue (Scale) | Starting Pricing | Free Tier / Free Trial Limits | Key Focus & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Nasdaq Boardvantage](https://www.nasdaq.com/solutions/boardvantage)** | **$55.46B Market Cap** (~$5.25B Annual Revenue — Nasdaq, Inc.) | ~$12,000/year (Custom enterprise quote) | **No free tier**; custom self-guided interactive tour / sales demo environment available | Purpose-built for publicly traded companies and financial institutions requiring rigorous regulatory compliance, multi-factor security, and direct integration with the Nasdaq corporate governance suite. |
+| **[Diligent Boards](https://www.diligent.com/)** | **~$4.0B+ Valuation** (~$600M+ Annual Revenue) | ~$15,000/year (Custom enterprise quote, avg. ~$25,000/year) | **No free tier**; customized sandboxed demo / sandbox trial available upon sales consultation | Category leader with ~40% enterprise market share. Built on a proprietary, hardened security stack without third-party PDF viewers, offering automated agenda curation, annotations, voting, and AI minute summarization. |
+| **[OnBoard (Passageways)](https://www.onboardmeetings.com/)** | **~$105M+ Funding** (~$40M+ Annual Revenue) | Custom enterprise quote (Tiered: Essentials, Premium, Ultimate) | **No free tier**; request-a-demo evaluation access provided by sales team | Intuitive enterprise & mid-market board portal holding ~20% market share. Offers drag-and-drop agenda builders, AI meeting assistants, e-signatures, D&O questionnaires, and multi-board oversight. Acquired BoardEffect in 2023. |
+| **[Azeus Convene](https://www.azeusconvene.com/)** | **~$120M Market Cap** (HK$466.8M / ~$60M Annual Revenue — SGX: BBW) | ~$400/user/year (or £195/user/year) | **30-day free trial** with full feature access for unlimited test board members | Internationally accredited board portal with major presence across Europe, APAC, and government bodies. Features live presentation synchronization, multi-language support, and global data centers. |
+| **[BoardPAC](https://www.boardpac.com/)** | **Privately Held** (~$26.5M Annual Revenue) | Custom enterprise quote (Annual subscription) | **No free tier**; scheduled personalized sandbox trial available upon request | Enterprise board governance and paperless meeting software with strong enterprise adoption across 40+ countries, multi-platform iPad/Android apps, and strict encryption protocols. |
+| **[Govenda](https://govenda.com/)** | **~$6.59M Funding** (~$3.1M Annual Revenue) | Custom quote (Tiered by board seats and organization size) | **No free tier**; guided product evaluation trial available upon request | Cloud-based board portal designed for corporate boards, higher education, and healthcare institutions with relationship intelligence, voting workflows, and committee administration. |
+| **[Boardable](https://boardable.com/)** | **~$12.5M Funding** (~$2.0M Annual Revenue) | $20.99/user/month (Essentials plan, billed annually) | **14-day free trial** with full platform capabilities and no credit card required | Transparent, accessible pricing tailored for nonprofits, startups, and SMB boards. Features agenda planning, virtual meeting hosting, polling, and document repositories. |
+| **[Aprio](https://www.aprio.com/)** | **Privately Held** (~$1.3M Annual Revenue) | Custom all-inclusive quote (Typically based on a 20-seat baseline allocation) | **30-day to 3-month free trial** with unlimited committees, unlimited administrators, and 24/7 support | All-inclusive pricing model with no hidden per-feature fees, dedicated 24/7 director support, resolution voting, and secure document collaboration. |
+
+---
+
+## Open-Source GitHub Projects
+
+The following list contains open-source systems, decision engines, and meeting governance tools. Repositories are ranked in descending order by GitHub stargazers count:
+
+- **[Snapshot](https://github.com/snapshot-labs/snapshot-v1)** [![GitHub stars](https://img.shields.io/github/stars/snapshot-labs/snapshot-v1?style=social&color=white)](https://github.com/snapshot-labs/snapshot-v1/stargazers)  
+  *Off-chain decentralized governance and proposal voting platform (MIT).*  
+  Industry standard for verifiable off-chain voting and resolution management. Supports customizable proposal strategies, quadratic voting, weighted voting, multi-choice ballots, and cryptographic signature validation via EIP-712 without gas fees.
+
+- **[Loomio](https://github.com/loomio/loomio)** [![GitHub stars](https://img.shields.io/github/stars/loomio/loomio?style=social&color=white)](https://github.com/loomio/loomio/stargazers)  
+  *Collaborative decision-making, resolution deliberation, and voting platform (AGPL-3.0).*  
+  Designed for boards, cooperatives, and distributed teams to reach consensus asynchronously. Features structured threaded discussions, proposal motions, ranked-choice voting, time polls, approval tracking, and complete decision archives exportable to CSV/JSON.
+
+- **[Decidim](https://github.com/decidim/decidim)** [![GitHub stars](https://img.shields.io/github/stars/decidim/decidim?style=social&color=white)](https://github.com/decidim/decidim/stargazers)  
+  *Participatory governance and democratic assembly framework (AGPL-3.0).*  
+  Ruby on Rails-powered platform for institutional governance, strategic assembly deliberation, amendment drafting, public resolutions, and formal voting procedures. Used by municipal governments, universities, and major civic associations globally.
+
+- **[Probo](https://github.com/getprobo/probo)** [![GitHub stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)  
+  *Open-source Governance, Risk, and Compliance (GRC) platform (MIT).*  
+  Built for high-trust compliance environments with versioned governance documents, approval quorums, electronic signatures, immutable audit logs, policy-based RBAC, and 270+ MCP tools for automated AI governance agents.
+
+- **[Aragon](https://github.com/aragon/client)** [![GitHub stars](https://img.shields.io/github/stars/aragon/client?style=social&color=white)](https://github.com/aragon/client/stargazers)  
+  *Modular organizational governance and decision execution framework (GPL-3.0).*  
+  Enables organizations and committees to manage shared registries, vote on formal resolutions, manage financial authorizations, and execute rule-based governance actions transparently.
+
+- **[OpenSlides](https://github.com/OpenSlides/OpenSlides)** [![GitHub stars](https://img.shields.io/github/stars/OpenSlides/OpenSlides?style=social&color=white)](https://github.com/OpenSlides/OpenSlides/stargazers)  
+  *The digital motion, resolution, and assembly system (MIT).*  
+  Complete platform for managing formal assemblies, board conferences, and legislative conventions. Features dynamic agenda management, structured motion/amendment processing, real-time balloting, roll-call voting, speaking lists, and projector views.
+
+- **[Ackify](https://github.com/kOlapsis/ackify)** [![GitHub stars](https://img.shields.io/github/stars/kOlapsis/ackify?style=social&color=white)](https://github.com/kOlapsis/ackify/stargazers)  
+  *Self-hosted cryptographic proof-of-read and compliance acknowledgment system (MIT).*  
+  Validates that corporate directors and executives have received, reviewed, and approved sensitive policies and governance resolutions. Uses Ed25519 signatures, document checksum verification (SHA-256/512), and PostgreSQL trigger-based tamper-evident audit logs.
+
+- **[4Minitz](https://github.com/4minitz/4minitz)** [![GitHub stars](https://img.shields.io/github/stars/4minitz/4minitz?style=social&color=white)](https://github.com/4minitz/4minitz/stargazers)  
+  *Collaborative meeting minutes, agenda management, and action tracking webapp (MIT).*  
+  Specialized tool for taking real-time meeting minutes, tracking decision resolutions, assigning actionable agenda tasks, and generating structured meeting protocols. Can be deployed seamlessly using Docker.
+
+- **[Antragsgrün (Motion.Tools)](https://github.com/CatoTH/antragsgruen)** [![GitHub stars](https://img.shields.io/github/stars/CatoTH/antragsgruen?style=social&color=white)](https://github.com/CatoTH/antragsgruen/stargazers)  
+  *Motion and resolution management system for assemblies and conventions (AGPL-3.0).*  
+  Engineered for political conventions, NGOs, and assembly boards to manage large volumes of submitted resolutions, line-by-line amendment deliberations, speaking order lists, and recorded roll calls.
+
+- **[Politeia](https://github.com/decred/politeia)** [![GitHub stars](https://img.shields.io/github/stars/decred/politeia?style=social&color=white)](https://github.com/decred/politeia/stargazers)  
+  *Cryptographically verifiable governance and proposal system (ISC License).*  
+  An innovative, provably secure proposal system storing submissions, amendments, and voting records backed by cryptographic timestamping and verifiable append-only records.
+
+- **[EasyBoard](https://vibecode.law/showcase/easyboard-547268)** [![Community Showcase](https://img.shields.io/badge/Status-Active_Showcase-blue?style=social&color=white)](https://vibecode.law/showcase/easyboard-547268)  
+  *AI-native, self-hosted board management platform built for legal practitioners.*  
+  Demonstrates practitioner-designed governance tooling. Automatically classifies incoming documents into 7 governance categories, initiates quorum votes, generates draft minutes with SHA-256 integrity hashes, enforces conflict-of-interest recusals, and maintains a human-in-the-loop secretary approval queue.
+
+- **[GovernanceOS](https://github.com/terra-os/GovernanceOS)** [![GitHub stars](https://img.shields.io/github/stars/terra-os/GovernanceOS?style=social&color=white)](https://github.com/terra-os/GovernanceOS/stargazers)  
+  *Open-source global legal entity and subsidiary governance platform (MIT).*  
+  Engineered for legal operations and compliance teams across multi-entity corporations. Tracks parent/subsidiary hierarchies, director tenure, quorum thresholds, statutory license expirations, and regulatory board minutes.
+
+- **[Decidiq](https://github.com/ConductionNL/decidiq)** [![GitHub stars](https://img.shields.io/github/stars/ConductionNL/decidiq?style=social&color=white)](https://github.com/ConductionNL/decidiq/stargazers)  
+  *Universal decision-making and governance application for Nextcloud (EUPL-1.2).*  
+  Brings structured motions, meeting minutes, resolution workflows, and decision histories into the Nextcloud ecosystem. Fully WCAG AA compliant with integrated AI Chat Companion tools for governance task execution.
+
+- **[Governance Doc Generator](https://github.com/noamrazbuilds/governance-doc-generator)** [![GitHub stars](https://img.shields.io/github/stars/noamrazbuilds/governance-doc-generator?style=social&color=white)](https://github.com/noamrazbuilds/governance-doc-generator/stargazers)  
+  *Automated corporate resolution and meeting minutes generator (MIT).*  
+  Automates the generation of compliant corporate governance files (board resolutions, written consents, minutes of meetings, officer letters) into clean Word (.docx) documents from standardized form inputs.
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Add your project or SaaS tool to the appropriate section, following the existing tabular or badge format.
+3. Ensure pricing, valuation/revenue, and star badges are accurate and verified.
+4. Submit a Pull Request with a clear description of the project and why it belongs in this curated collection.
+
+---
+
+## Disclaimer
+
+- This is a community-curated directory intended for educational, technical, and procurement research purposes.
+- Board portals and electronic minutes solutions handling confidential corporate records must adhere to applicable corporate governance laws, securities regulations, and data sovereignty standards.
+- Inclusion does not constitute a formal legal or regulatory endorsement.
