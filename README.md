@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome List"/></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social" alt="GitHub forks"/></a>
   <a href="https://www.trackawesomelist.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/blob/main/README.md#how-to-contribute"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
@@ -71,43 +71,43 @@ The following table provides detailed pricing, trial terms, company scale (valua
 
 The following list contains open-source systems, decision engines, and meeting governance tools. Repositories are ranked in descending order by GitHub stargazers count:
 
-- **[Snapshot](https://github.com/snapshot-labs/snapshot-v1)** [![GitHub stars](https://img.shields.io/github/stars/snapshot-labs/snapshot-v1?style=social&color=white)](https://github.com/snapshot-labs/snapshot-v1/stargazers)  
+- **[Snapshot](https://github.com/snapshot-labs/snapshot-v1)** [![GitHub_Stars](https://img.shields.io/github/stars/snapshot-labs/snapshot-v1?style=social&color=white)](https://github.com/snapshot-labs/snapshot-v1/stargazers)  
   *Off-chain decentralized governance and proposal voting platform (MIT).*  
   Industry standard for verifiable off-chain voting and resolution management. Supports customizable proposal strategies, quadratic voting, weighted voting, multi-choice ballots, and cryptographic signature validation via EIP-712 without gas fees.
 
-- **[Loomio](https://github.com/loomio/loomio)** [![GitHub stars](https://img.shields.io/github/stars/loomio/loomio?style=social&color=white)](https://github.com/loomio/loomio/stargazers)  
+- **[Loomio](https://github.com/loomio/loomio)** [![GitHub_Stars](https://img.shields.io/github/stars/loomio/loomio?style=social&color=white)](https://github.com/loomio/loomio/stargazers)  
   *Collaborative decision-making, resolution deliberation, and voting platform (AGPL-3.0).*  
   Designed for boards, cooperatives, and distributed teams to reach consensus asynchronously. Features structured threaded discussions, proposal motions, ranked-choice voting, time polls, approval tracking, and complete decision archives exportable to CSV/JSON.
 
-- **[Decidim](https://github.com/decidim/decidim)** [![GitHub stars](https://img.shields.io/github/stars/decidim/decidim?style=social&color=white)](https://github.com/decidim/decidim/stargazers)  
+- **[Decidim](https://github.com/decidim/decidim)** [![GitHub_Stars](https://img.shields.io/github/stars/decidim/decidim?style=social&color=white)](https://github.com/decidim/decidim/stargazers)  
   *Participatory governance and democratic assembly framework (AGPL-3.0).*  
   Ruby on Rails-powered platform for institutional governance, strategic assembly deliberation, amendment drafting, public resolutions, and formal voting procedures. Used by municipal governments, universities, and major civic associations globally.
 
-- **[Probo](https://github.com/getprobo/probo)** [![GitHub stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)  
+- **[Probo](https://github.com/getprobo/probo)** [![GitHub_Stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)  
   *Open-source Governance, Risk, and Compliance (GRC) platform (MIT).*  
   Built for high-trust compliance environments with versioned governance documents, approval quorums, electronic signatures, immutable audit logs, policy-based RBAC, and 270+ MCP tools for automated AI governance agents.
 
-- **[Aragon](https://github.com/aragon/client)** [![GitHub stars](https://img.shields.io/github/stars/aragon/client?style=social&color=white)](https://github.com/aragon/client/stargazers)  
+- **[Aragon](https://github.com/aragon/client)** [![GitHub_Stars](https://img.shields.io/github/stars/aragon/client?style=social&color=white)](https://github.com/aragon/client/stargazers)  
   *Modular organizational governance and decision execution framework (GPL-3.0).*  
   Enables organizations and committees to manage shared registries, vote on formal resolutions, manage financial authorizations, and execute rule-based governance actions transparently.
 
-- **[OpenSlides](https://github.com/OpenSlides/OpenSlides)** [![GitHub stars](https://img.shields.io/github/stars/OpenSlides/OpenSlides?style=social&color=white)](https://github.com/OpenSlides/OpenSlides/stargazers)  
+- **[OpenSlides](https://github.com/OpenSlides/OpenSlides)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenSlides/OpenSlides?style=social&color=white)](https://github.com/OpenSlides/OpenSlides/stargazers)  
   *The digital motion, resolution, and assembly system (MIT).*  
   Complete platform for managing formal assemblies, board conferences, and legislative conventions. Features dynamic agenda management, structured motion/amendment processing, real-time balloting, roll-call voting, speaking lists, and projector views.
 
-- **[Ackify](https://github.com/kOlapsis/ackify)** [![GitHub stars](https://img.shields.io/github/stars/kOlapsis/ackify?style=social&color=white)](https://github.com/kOlapsis/ackify/stargazers)  
+- **[Ackify](https://github.com/kOlapsis/ackify)** [![GitHub_Stars](https://img.shields.io/github/stars/kOlapsis/ackify?style=social&color=white)](https://github.com/kOlapsis/ackify/stargazers)  
   *Self-hosted cryptographic proof-of-read and compliance acknowledgment system (MIT).*  
   Validates that corporate directors and executives have received, reviewed, and approved sensitive policies and governance resolutions. Uses Ed25519 signatures, document checksum verification (SHA-256/512), and PostgreSQL trigger-based tamper-evident audit logs.
 
-- **[4Minitz](https://github.com/4minitz/4minitz)** [![GitHub stars](https://img.shields.io/github/stars/4minitz/4minitz?style=social&color=white)](https://github.com/4minitz/4minitz/stargazers)  
+- **[4Minitz](https://github.com/4minitz/4minitz)** [![GitHub_Stars](https://img.shields.io/github/stars/4minitz/4minitz?style=social&color=white)](https://github.com/4minitz/4minitz/stargazers)  
   *Collaborative meeting minutes, agenda management, and action tracking webapp (MIT).*  
   Specialized tool for taking real-time meeting minutes, tracking decision resolutions, assigning actionable agenda tasks, and generating structured meeting protocols. Can be deployed seamlessly using Docker.
 
-- **[Antragsgrün (Motion.Tools)](https://github.com/CatoTH/antragsgruen)** [![GitHub stars](https://img.shields.io/github/stars/CatoTH/antragsgruen?style=social&color=white)](https://github.com/CatoTH/antragsgruen/stargazers)  
+- **[Antragsgrün (Motion.Tools)](https://github.com/CatoTH/antragsgruen)** [![GitHub_Stars](https://img.shields.io/github/stars/CatoTH/antragsgruen?style=social&color=white)](https://github.com/CatoTH/antragsgruen/stargazers)  
   *Motion and resolution management system for assemblies and conventions (AGPL-3.0).*  
   Engineered for political conventions, NGOs, and assembly boards to manage large volumes of submitted resolutions, line-by-line amendment deliberations, speaking order lists, and recorded roll calls.
 
-- **[Politeia](https://github.com/decred/politeia)** [![GitHub stars](https://img.shields.io/github/stars/decred/politeia?style=social&color=white)](https://github.com/decred/politeia/stargazers)  
+- **[Politeia](https://github.com/decred/politeia)** [![GitHub_Stars](https://img.shields.io/github/stars/decred/politeia?style=social&color=white)](https://github.com/decred/politeia/stargazers)  
   *Cryptographically verifiable governance and proposal system (ISC License).*  
   An innovative, provably secure proposal system storing submissions, amendments, and voting records backed by cryptographic timestamping and verifiable append-only records.
 
@@ -115,15 +115,15 @@ The following list contains open-source systems, decision engines, and meeting g
   *AI-native, self-hosted board management platform built for legal practitioners.*  
   Demonstrates practitioner-designed governance tooling. Automatically classifies incoming documents into 7 governance categories, initiates quorum votes, generates draft minutes with SHA-256 integrity hashes, enforces conflict-of-interest recusals, and maintains a human-in-the-loop secretary approval queue.
 
-- **[GovernanceOS](https://github.com/terra-os/GovernanceOS)** [![GitHub stars](https://img.shields.io/github/stars/terra-os/GovernanceOS?style=social&color=white)](https://github.com/terra-os/GovernanceOS/stargazers)  
+- **[GovernanceOS](https://github.com/terra-os/GovernanceOS)** [![GitHub_Stars](https://img.shields.io/github/stars/terra-os/GovernanceOS?style=social&color=white)](https://github.com/terra-os/GovernanceOS/stargazers)  
   *Open-source global legal entity and subsidiary governance platform (MIT).*  
   Engineered for legal operations and compliance teams across multi-entity corporations. Tracks parent/subsidiary hierarchies, director tenure, quorum thresholds, statutory license expirations, and regulatory board minutes.
 
-- **[Decidiq](https://github.com/ConductionNL/decidiq)** [![GitHub stars](https://img.shields.io/github/stars/ConductionNL/decidiq?style=social&color=white)](https://github.com/ConductionNL/decidiq/stargazers)  
+- **[Decidiq](https://github.com/ConductionNL/decidiq)** [![GitHub_Stars](https://img.shields.io/github/stars/ConductionNL/decidiq?style=social&color=white)](https://github.com/ConductionNL/decidiq/stargazers)  
   *Universal decision-making and governance application for Nextcloud (EUPL-1.2).*  
   Brings structured motions, meeting minutes, resolution workflows, and decision histories into the Nextcloud ecosystem. Fully WCAG AA compliant with integrated AI Chat Companion tools for governance task execution.
 
-- **[Governance Doc Generator](https://github.com/noamrazbuilds/governance-doc-generator)** [![GitHub stars](https://img.shields.io/github/stars/noamrazbuilds/governance-doc-generator?style=social&color=white)](https://github.com/noamrazbuilds/governance-doc-generator/stargazers)  
+- **[Governance Doc Generator](https://github.com/noamrazbuilds/governance-doc-generator)** [![GitHub_Stars](https://img.shields.io/github/stars/noamrazbuilds/governance-doc-generator?style=social&color=white)](https://github.com/noamrazbuilds/governance-doc-generator/stargazers)  
   *Automated corporate resolution and meeting minutes generator (MIT).*  
   Automates the generation of compliant corporate governance files (board resolutions, written consents, minutes of meetings, officer letters) into clean Word (.docx) documents from standardized form inputs.
 
@@ -133,7 +133,7 @@ The following list contains open-source systems, decision engines, and meeting g
 
 1. 🍴 Fork this repository.
 2. ➕ Add your project or SaaS tool to the appropriate section, following the existing tabular or badge format.
-3. ✅ Ensure pricing, valuation/revenue, and star badges are accurate and verified.
+3. ✅ Ensure pricing, valuation/revenue, and Stars_Badges are accurate and verified.
 4. 🚀 Submit a Pull Request with a clear description of the project and why it belongs in this curated collection.
 
 ---
