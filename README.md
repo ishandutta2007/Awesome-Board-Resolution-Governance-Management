@@ -1,42 +1,56 @@
-# Awesome Board Resolution & Governance Management [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
+
+![Awesome Board Resolution & Governance Management Banner](assets/banner.svg)
+
+# 🏛️ Awesome Board Resolution & Governance Management
 
 > A curated list of leading SaaS platforms and open-source software for **Board Resolution & Corporate Governance Management**, board portals, resolution workflows, meeting minute automation, and cryptographic governance audit trails.
 
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social)](https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social)](https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/network/members)
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/blob/main/README.md#how-to-contribute)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome List"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Board-Resolution-Governance-Management?style=social" alt="GitHub forks"/></a>
+  <a href="https://www.trackawesomelist.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Board-Resolution-Governance-Management/blob/main/README.md#how-to-contribute"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub oollowers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+</div>
 
 ---
 
-## Overview
+## 📌 Table of Contents
+
+- [📖 Overview](#-overview)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📖 Overview
 
 This repository tracks premier **SaaS platforms** and **open-source repositories** designed for **Board Resolution & Governance Management**. These systems empower corporate secretaries, general counsels, board chairs, and governance teams to:
-- Compile meeting records and discussions into compliant, audit-ready **legal minutes**.
-- Execute secure **board resolutions, consent agendas, and multi-signature voting workflows**.
-- Maintain tamper-evident, cryptographically verifiable corporate audit trails.
-- Safeguard confidential executive communications and sensitive board packs.
+- 📝 Compile meeting records and discussions into compliant, audit-ready **legal minutes**.
+- 🗳️ Execute secure **board resolutions, consent agendas, and multi-signature voting workflows**.
+- 🔐 Maintain tamper-evident, cryptographically verifiable corporate audit trails.
+- 🛡️ Safeguard confidential executive communications and sensitive board packs.
 
 ---
 
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
----
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global board portal and governance management software sector is estimated at **$2.95 billion** (forecasted to reach **$7.93 billion by 2036** at a **10.4% CAGR**). The market is **moderately fragmented at the mid-market and non-profit tiers**, but **highly concentrated at the upper-tier enterprise level**, where category giants Diligent Corporation and OnBoard (Passageways) command approximately 60% combined market share.
 
 ---
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 The following table provides detailed pricing, trial terms, company scale (valuation / annual revenue), and key highlights for category-leading SaaS board management providers, sorted by company size (descending):
 
@@ -53,7 +67,7 @@ The following table provides detailed pricing, trial terms, company scale (valua
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 The following list contains open-source systems, decision engines, and meeting governance tools. Repositories are ranked in descending order by GitHub stargazers count:
 
@@ -115,17 +129,34 @@ The following list contains open-source systems, decision engines, and meeting g
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork this repository.
-2. Add your project or SaaS tool to the appropriate section, following the existing tabular or badge format.
-3. Ensure pricing, valuation/revenue, and star badges are accurate and verified.
-4. Submit a Pull Request with a clear description of the project and why it belongs in this curated collection.
+1. 🍴 Fork this repository.
+2. ➕ Add your project or SaaS tool to the appropriate section, following the existing tabular or badge format.
+3. ✅ Ensure pricing, valuation/revenue, and star badges are accurate and verified.
+4. 🚀 Submit a Pull Request with a clear description of the project and why it belongs in this curated collection.
 
 ---
 
-## Disclaimer
+## 💖 Support & Sponsorship
 
-- This is a community-curated directory intended for educational, technical, and procurement research purposes.
-- Board portals and electronic minutes solutions handling confidential corporate records must adhere to applicable corporate governance laws, securities regulations, and data sovereignty standards.
-- Inclusion does not constitute a formal legal or regulatory endorsement.
+Thank you for visiting and using this curated governance ecosystem guide! If you find this resource helpful for your research, legal workflow, or corporate governance stack:
+
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** and contribute additions or improvements.
+- 📢 **Share** it with fellow corporate secretaries, legal counsels, and developers.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing curation and maintenance, consider sponsoring via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Board-Resolution-Governance-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Board-Resolution-Governance-Management&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- ℹ️ This is a community-curated directory intended for educational, technical, and procurement research purposes.
+- 📜 Board portals and electronic minutes solutions handling confidential corporate records must adhere to applicable corporate governance laws, securities regulations, and data sovereignty standards.
+- 🛡️ Inclusion does not constitute a formal legal or regulatory endorsement.
